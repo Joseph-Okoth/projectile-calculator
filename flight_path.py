@@ -56,14 +56,5 @@ def main():
         #     else:
         #         break  
 
-
-
-
-        # if y = 0:
-        #     print("The projectile has landed.")
-
-    # # Calculate and print the flight path of the projectile of y is < 0 then print that it has landed.
-    # print(f"The flight path of the projectile is ({x:.2f}, {y:.2f})")
-
 # Call the main function to execute the program
 main()
