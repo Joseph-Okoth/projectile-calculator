@@ -6,13 +6,11 @@ This Python program simulates the flight path of a projectile launched with user
 
 The program utilizes the following projectile motion equations:
 
-- Horizontal position (\( x \)): \( v \times \cos(\text{angle}) \times t \)
-- Vertical position (\( y \)): \( v \times \sin(\text{angle}) \times t - 0.5 \times g \times t^2 \)
+- Horizontal position (x) = v * cos(angle) * t
+- Vertical position (y) = v * sin(angle) * t - 0.5 * g * t^2
 
-Where:
-- \( x \) and \( y \) are the horizontal and vertical positions of the projectile respectively.
 - \( v \) is the initial velocity of the projectile (m/s).
-- \( \text{angle} \) is the initial angle of the projectile (in degrees).
+- \( {angle} \) is the initial angle of the projectile (in degrees).
 - \( g \) is the acceleration due to gravity (9.81 m/s²).
 
 ## Usage
@@ -23,7 +21,7 @@ Where:
 
 2. Open a terminal or command prompt and navigate to the directory containing the script.
     ```bash
-    cd projectile-calculator/flight_path
+    cd ./projectile-calculator/
 
 3. Run the script by executing the following command:
    ```bash
